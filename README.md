@@ -5,7 +5,7 @@ Sitio web de DevCore Advance con portafolio, prototipos interactivos, Studio y g
 ## Carpetas
 
 - `front/`: aplicación React, TypeScript y Vite. Las imágenes y el video están en `front/public/`.
-- `backend/`: API FastAPI para la pestaña Precios y cotizaciones.
+- `backend/`: API FastAPI para funciones comerciales que requieran persistencia.
 - `.github/workflows/deploy-pages.yml`: compila el frontend y lo publica en GitHub Pages cuando se suben cambios a `main` o `master`.
 
 El repositorio ya está inicializado en esta carpeta. El `.gitignore` excluye `node_modules`, `dist`, entornos virtuales, cachés, bases SQLite locales y archivos `.env`. Los archivos `.env.example` sí se suben.
@@ -30,9 +30,9 @@ Sube la carpeta raíz completa como repositorio, manteniendo `front/` y `backend
 
 ## Qué queda publicado
 
-GitHub Pages sirve el portafolio, los prototipos y el formulario de contacto por WhatsApp. La pestaña **Precios** necesita que la API FastAPI esté desplegada aparte y que `VITE_API_URL` se configure como variable del repositorio en **Settings → Secrets and variables → Actions → Variables**. Si no está configurada, la pestaña informa que falta conectar la API.
+GitHub Pages sirve el portafolio, los prototipos, el formulario de contacto por WhatsApp y el catálogo público de precios. Las tarifas visibles se mantienen en `front/public/data/pricing-services.json`; al editar ese catálogo y subir los cambios, GitHub Actions vuelve a publicar la página. No hace falta desplegar el backend para mostrar precios.
 
-El backend actual permite editar tarifas y cotizaciones y todavía no tiene autenticación. Protégelo antes de exponerlo en Internet. Al desplegarlo, configura HTTPS y CORS para el dominio de GitHub Pages. No subas archivos `.env` ni credenciales.
+El backend contiene funciones de edición y persistencia de cotizaciones; todavía no tiene autenticación y no se debe exponer públicamente hasta proteger esas operaciones. No subas archivos `.env` ni credenciales.
 
 ## Desarrollo local
 
