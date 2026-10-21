@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" preserveAspectRatio="xMidYMid slice">
+ <defs>
+  <linearGradient id="back" x2="0" y2="1"><stop stop-color="#020716"/><stop offset=".52" stop-color="#041332"/><stop offset="1" stop-color="#020716"/></linearGradient>
+  <radialGradient id="horizon"><stop stop-color="#087cff" stop-opacity=".5"/><stop offset=".34" stop-color="#0758ce" stop-opacity=".19"/><stop offset="1" stop-color="#020716" stop-opacity="0"/></radialGradient>
+  <linearGradient id="blue" x2="0" y2="1"><stop stop-color="#126dff"/><stop offset=".58" stop-color="#37cfff"/><stop offset="1" stop-color="#168bff"/></linearGradient>
+  <linearGradient id="white" x2="0" y2="1"><stop stop-color="#c6f8ff"/><stop offset=".5" stop-color="#fff"/><stop offset="1" stop-color="#42bfff"/></linearGradient>
+  <linearGradient id="floor" x2="0" y2="1"><stop stop-color="#0758cf" stop-opacity=".08"/><stop offset=".38" stop-color="#087cff" stop-opacity=".18"/><stop offset="1" stop-color="#020716" stop-opacity=".86"/></linearGradient>
+  <filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="10" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <filter id="soft" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="32"/></filter>
+ </defs>
+ <rect width="1920" height="1080" fill="url(#back)"/>
+ <ellipse cx="960" cy="535" rx="620" ry="330" fill="url(#horizon)"/>
+ <path d="M0 0h490l355 545H0zM1920 0h-490l-355 545h845z" fill="#06122c" fill-opacity=".68"/>
+ <path d="M0 0h490l355 545H0z" fill="#07142c" fill-opacity=".42" stroke="#2364c4" stroke-opacity=".25" stroke-width="3"/>
+ <path d="M1920 0h-490l-355 545h845z" fill="#07142c" fill-opacity=".42" stroke="#2364c4" stroke-opacity=".25" stroke-width="3"/>
+ <g fill="none" stroke="#3983ff" stroke-opacity=".38" stroke-width="2">
+  <path d="M490 0 845 545M570 0 875 545M650 0 900 545M730 0 925 545M810 0 945 545M890 0 960 545M970 0 975 545M1050 0 990 545M1130 0 1010 545M1210 0 1035 545M1290 0 1060 545M1370 0 1085 545M1430 0 1075 545"/>
+  <path d="M0 90h550l310 455M0 210h625l270 335M0 355h715l205 190M0 490h800l110 55M1920 90h-550l-310 455M1920 210h-625l-270 335M1920 355h-715l-205 190M1920 490h-800l-110 55"/>
+ </g>
+ <g fill="none" stroke="#102a58" stroke-width="15" opacity=".8">
+  <path d="M115 0 0 580M360 0 700 550M1805 0l115 580M1560 0l-340 550"/>
+ </g>
+ <g fill="none" stroke="url(#blue)" stroke-width="7" filter="url(#glow)">
+  <path d="M112 0 0 600M1808 0l112 600M357 0 685 550M1563 0l-328 550"/>
+ </g>
+ <g fill="none" stroke="url(#white)" stroke-width="2.5" opacity=".95">
+  <path d="M126 0 18 596M1794 0l108 596M373 0 698 548M1547 0l-325 548"/>
+ </g>
+ <path d="M490 0h940l-355 545H845z" fill="#06112a" fill-opacity=".35" stroke="#2456a7" stroke-opacity=".45" stroke-width="2"/>
+ <g fill="none" stroke="#4b8fff" stroke-opacity=".28" stroke-width="2">
+  <path d="M520 70h880l-90 120H610zM610 190h700l-75 100H685zM685 290h550l-63 95H748zM748 385h424l-52 78H800zM800 463h320l-40 62H840z"/>
+  <path d="M570 0 855 545M700 0 900 545M830 0 940 545M960 0 960 545M1090 0 980 545M1220 0 1000 545M1350 0 1025 545"/>
+ </g>
+ <g fill="#6fcaff" opacity=".8">
+  <circle cx="750" cy="90" r="2"/><circle cx="1030" cy="120" r="2"/><circle cx="930" cy="175" r="2"/><circle cx="1100" cy="75" r="1.8"/><circle cx="860" cy="225" r="1.5"/><circle cx="980" cy="40" r="2.4"/><circle cx="1180" cy="210" r="1.5"/><circle cx="790" cy="145" r="1.5"/>
+ </g>
+ <path d="M0 545h1920v535H0z" fill="url(#floor)"/>
+ <g fill="none" stroke="#3f9dff" stroke-opacity=".44" stroke-width="2">
+  <path d="M0 556h1920M0 575h1920M0 602h1920M0 640h1920M0 692h1920M0 762h1920M0 850h1920M0 958h1920M0 1075h1920"/>
+  <path d="M960 545 0 1080M960 545 160 1080M960 545 320 1080M960 545 480 1080M960 545 640 1080M960 545 800 1080M960 545 880 1080M960 545 1040 1080M960 545 1120 1080M960 545 1280 1080M960 545 1440 1080M960 545 1600 1080M960 545 1760 1080M960 545 1920 1080"/>
+ </g>
+ <g fill="none" stroke="url(#white)" stroke-width="3" filter="url(#glow)" opacity=".82">
+  <path d="M0 556h1920M0 602h1920M0 692h1920M0 850h1920M0 1075h1920"/>
+  <path d="M960 545 0 1080M960 545 480 1080M960 545 800 1080M960 545 1120 1080M960 545 1440 1080M960 545 1920 1080"/>
+ </g>
+ <ellipse cx="960" cy="550" rx="390" ry="40" fill="#087cff" opacity=".28" filter="url(#soft)"/>
+ <path d="M0 0h1920v1080H0z" fill="none" stroke="#020817" stroke-width="120" opacity=".45"/>
+</svg>

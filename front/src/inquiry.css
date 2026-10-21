@@ -1,0 +1,26 @@
+.project-card-actions{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-top:18px}
+#prototipos .project-card-actions .text-link{margin-top:0}
+.project-request-button{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:40px;padding:0 14px;color:#07171b;background:#54d5e2;border:1px solid #54d5e2;border-radius:6px;font-size:13px;font-weight:700;text-decoration:none;white-space:nowrap;cursor:pointer;transition:background .16s,border-color .16s,transform .16s}
+.project-request-button:hover,.inquiry-submit:hover{background:#78e3ec;border-color:#78e3ec;transform:translateY(-1px)}
+.project-request-dialog{margin:5px 0 18px}
+.inquiry-backdrop{position:fixed;z-index:120;inset:0;display:grid;place-items:center;padding:20px;background:#03080dd9;backdrop-filter:blur(7px)}
+.inquiry-modal{position:relative;width:min(660px,100%);max-height:min(92vh,850px);overflow:auto;padding:34px;color:#e8f1f6;background:#0d1824;border:1px solid #2e4856;border-radius:14px;box-shadow:0 28px 90px #0009}
+.inquiry-close{position:absolute;top:17px;right:17px;display:grid;width:38px;height:38px;place-items:center;color:#c5d5de;background:#142431;border:1px solid #2b414e;border-radius:8px;cursor:pointer}
+.inquiry-eyebrow{display:inline-flex;align-items:center;gap:8px;color:#6ce0e5;font:700 10px var(--mono);letter-spacing:.12em}
+.inquiry-modal h2{margin:12px 48px 8px 0;color:#f2f7fa;font:700 clamp(25px,4vw,34px)/1.2 var(--display);letter-spacing:-.03em}
+.inquiry-modal>p{margin:0 0 24px;color:#9db0be;font-size:14px;line-height:1.65}
+.inquiry-modal form{display:grid;gap:16px}
+.inquiry-modal form>label,.inquiry-fields-row>label{display:grid;gap:7px;color:#d9e4ea;font-size:13px;font-weight:600}
+.inquiry-modal input:not([type=checkbox]),.inquiry-modal textarea{width:100%;min-height:46px;padding:11px 12px;color:#eff6f8;background:#101f2c;border:1px solid #304452;border-radius:7px;font-family:inherit;font-size:14px;font-weight:400;outline:none}
+.inquiry-modal textarea{resize:vertical;line-height:1.55}
+.inquiry-modal input:focus,.inquiry-modal textarea:focus{border-color:#4bcbd5;box-shadow:0 0 0 3px #4bcbd522}
+.inquiry-fields-row{display:grid;grid-template-columns:1fr 1fr;gap:13px}
+.inquiry-consent{display:flex!important;grid-template-columns:18px 1fr;align-items:flex-start;gap:9px!important;color:#9fb2bf!important;font-size:12px!important;font-weight:400!important;line-height:1.5}
+.inquiry-consent input{width:17px;height:17px;margin:1px 0 0;accent-color:#52d2dc}
+.inquiry-submit{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:46px;padding:0 16px;color:#07171b;background:#54d5e2;border:1px solid #54d5e2;border-radius:7px;font-size:14px;font-weight:700;cursor:pointer;transition:background .16s,border-color .16s,transform .16s}
+.inquiry-whatsapp{display:grid;gap:9px;margin-top:18px;padding:15px;background:#10271e;border:1px solid #286447;border-radius:8px}
+.inquiry-whatsapp p{margin:0 0 3px;color:#c2e7d1;font-size:13px;line-height:1.55}
+.inquiry-whatsapp a{display:flex;align-items:center;gap:8px;width:max-content;max-width:100%;padding:9px 11px;color:#d8f7e4;background:#163b29;border:1px solid #337a50;border-radius:6px;font-size:13px;font-weight:600;text-decoration:none}
+.inquiry-whatsapp a:hover{background:#1b4b33}
+.inquiry-privacy{display:block;margin-top:16px;color:#7f93a1;font-size:11px;line-height:1.5}
+@media(max-width:700px){.project-card-actions{gap:8px}.project-request-button{min-height:40px;padding:0 10px;font-size:12px}.inquiry-backdrop{padding:12px}.inquiry-modal{padding:25px 19px 22px;border-radius:12px}.inquiry-modal>p{font-size:13px}.inquiry-fields-row{grid-template-columns:1fr;gap:14px}.inquiry-whatsapp a{width:100%}}

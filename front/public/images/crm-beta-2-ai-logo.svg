@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="54" y1="30" x2="1120" y2="590" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#10283C"/>
+      <stop offset=".55" stop-color="#0A1928"/>
+      <stop offset="1" stop-color="#102D35"/>
+    </linearGradient>
+    <linearGradient id="cyan" x1="207" y1="140" x2="443" y2="382" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#75F1EE"/>
+      <stop offset="1" stop-color="#22B8D0"/>
+    </linearGradient>
+    <linearGradient id="violet" x1="380" y1="111" x2="466" y2="198" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D1B9FF"/>
+      <stop offset="1" stop-color="#8C7BFF"/>
+    </linearGradient>
+    <filter id="glow" x="105" y="45" width="470" height="445" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="20"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="600" rx="34" fill="url(#bg)"/>
+  <path d="M0 457C194 398 341 534 539 481c203-54 352-165 661-102v221H0V457Z" fill="#0B202C" opacity=".55"/>
+  <g opacity=".18" stroke="#68DDE8">
+    <path d="M0 120h1200M0 480h1200M115 0v600M1085 0v600"/>
+    <circle cx="338" cy="287" r="183"/>
+    <circle cx="338" cy="287" r="220"/>
+  </g>
+  <circle cx="338" cy="286" r="142" fill="#32D4DE" opacity=".28" filter="url(#glow)"/>
+  <g stroke="url(#cyan)" stroke-width="15" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M245 220h72c24 0 43 19 43 43v5M348 270v72c0 24-19 43-43 43h-60"/>
+    <rect x="196" y="178" width="84" height="84" rx="22" fill="#102C3D"/>
+    <rect x="334" y="248" width="84" height="84" rx="22" fill="#102C3D"/>
+    <rect x="203" y="335" width="84" height="84" rx="22" fill="#102C3D"/>
+    <path d="M238 213h1m136 70h1m-130 94h1" stroke="#E4FFFF" stroke-width="12"/>
+  </g>
+  <g stroke="url(#violet)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+    <path d="m449 128 11 31 31 11-31 11-11 31-11-31-31-11 31-11 11-31Z" fill="#17243C"/>
+    <path d="m492 216 6 16 16 6-16 6-6 16-6-16-16-6 16-6 6-16Z"/>
+  </g>
+  <g fill="#71E8EC" opacity=".75">
+    <circle cx="128" cy="178" r="5"/><circle cx="519" cy="349" r="5"/><circle cx="164" cy="436" r="4"/><circle cx="500" cy="100" r="4"/>
+  </g>
+  <path d="M598 155h2" stroke="#62DCE3" stroke-width="4"/>
+  <text x="590" y="252" fill="#EAF5FA" font-family="Arial,Helvetica,sans-serif" font-size="58" font-weight="700" letter-spacing="-2">CRM BETA 2.0 IA</text>
+  <text x="594" y="326" fill="#8AA7B9" font-family="Arial,Helvetica,sans-serif" font-size="37" font-weight="600" letter-spacing="13">IA · CRM</text>
+  <rect x="590" y="369" width="390" height="2" rx="1" fill="#28495B"/>
+  <circle cx="607" cy="415" r="8" fill="#45D6C6"/>
+  <text x="632" y="428" fill="#B6C9D4" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="600" letter-spacing="5">BUSINESS PROCESS</text>
+  <text x="632" y="463" fill="#B6C9D4" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="600" letter-spacing="5">INTELLIGENCE</text>
+  <rect x="590" y="496" width="199" height="36" rx="18" fill="#142C3B" stroke="#31576B"/>
+  <text x="613" y="520" fill="#79E7EE" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="700" letter-spacing="4">AI · CRM</text>
+</svg>

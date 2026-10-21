@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="20" y1="10" x2="1170" y2="600" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#102D48"/>
+      <stop offset=".58" stop-color="#0B1A2B"/>
+      <stop offset="1" stop-color="#152A3B"/>
+    </linearGradient>
+    <linearGradient id="amber" x1="160" y1="108" x2="474" y2="436" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFD36A"/>
+      <stop offset="1" stop-color="#F49A20"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="453" y1="108" x2="511" y2="177" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#9CEBFF"/>
+      <stop offset="1" stop-color="#53B9F2"/>
+    </linearGradient>
+    <filter id="glow" x="78" y="32" width="500" height="500" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="22"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="600" rx="34" fill="url(#bg)"/>
+  <path d="M0 454c189-70 351 78 563 15 184-55 348-137 637-78v209H0V454Z" fill="#0A2235" opacity=".58"/>
+  <g stroke="#68B9E6" opacity=".16">
+    <path d="M0 118h1200M0 480h1200M118 0v600M1082 0v600"/>
+    <circle cx="322" cy="298" r="186"/><circle cx="322" cy="298" r="224"/>
+  </g>
+  <circle cx="320" cy="285" r="148" fill="#F5A623" opacity=".3" filter="url(#glow)"/>
+  <g stroke="url(#amber)" stroke-width="15" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M232 164h151l46 47v188H218V178c0-8 6-14 14-14Z" fill="#102A3D"/>
+    <path d="M382 166v54h50M256 256h111M256 292h111M256 328h58"/>
+    <path d="m339 363 25-10 25 10v36l-25-10-25 10v-36Z" fill="#F2A528"/>
+  </g>
+  <g stroke="url(#blue)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+    <path d="m451 119 10 29 29 10-29 10-10 29-10-29-29-10 29-10 10-29Z" fill="#122C42"/>
+    <path d="m494 208 6 17 17 6-17 6-6 17-6-17-17-6 17-6 6-17Z"/>
+  </g>
+  <g fill="#FFD36A" opacity=".78"><circle cx="144" cy="202" r="5"/><circle cx="485" cy="363" r="5"/><circle cx="178" cy="431" r="4"/><circle cx="515" cy="89" r="4"/></g>
+  <text x="586" y="201" fill="#94B4CA" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="700" letter-spacing="3">FACTURADOR ELECTRÓNICO</text>
+  <text x="580" y="304" fill="#F3F7FA" font-family="Arial,Helvetica,sans-serif" font-size="76" font-weight="700" letter-spacing="-3">FACTURIX</text>
+  <text x="1017" y="304" fill="#F7B43B" font-family="Arial,Helvetica,sans-serif" font-size="76" font-weight="700">AI</text>
+  <rect x="586" y="342" width="430" height="2" rx="1" fill="#38536A"/>
+  <text x="588" y="401" fill="#B5C8D6" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="600" letter-spacing="4">ADVANCED BILLING</text>
+  <text x="588" y="434" fill="#B5C8D6" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="600" letter-spacing="4">INTELLIGENCE</text>
+  <rect x="586" y="480" width="272" height="40" rx="20" fill="#182F42" stroke="#45627A"/>
+  <circle cx="608" cy="500" r="6" fill="#F6B238"/>
+  <text x="627" y="506" fill="#D6E3EC" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="700" letter-spacing="3">FACTURACIÓN INTELIGENTE</text>
+</svg>
